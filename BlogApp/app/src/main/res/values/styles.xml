@@ -1,0 +1,15 @@
+<resources>
+    <style name="AppTheme"  parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/ScreenDark</item>
+        <item name="colorPrimaryDark">@color/neonGreen</item>
+        <item name="colorAccent">@color/FirstDark</item>
+    </style>
+    <!-- Base application theme. -->
+
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlNormal">@color/FirstDark</item>
+        <item name="colorControlActivated">@color/LightGreen</item>
+        <item name="colorControlHighlight">@color/ScreenDark</item>
+    </style>
+
+</resources>

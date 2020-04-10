@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:elevation="4dp">
+
+    <ImageView
+        android:id="@+id/PostImageR"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@color/LightGreen" />
+
+    <TextView
+        android:id="@+id/PostRowHeader"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="145dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/ScreenDark"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/PostImage"
+        app:layout_constraintEnd_toEndOf="@+id/PostImage"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/PostImage"
+        app:layout_constraintTop_toTopOf="@+id/PostImage"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/DescPostRow"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:background="@drawable/black_gradient"
+        android:text="TextView"
+        android:textColor="@color/ScreenDark"
+        android:textSize="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/PostImage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilePostImgR"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

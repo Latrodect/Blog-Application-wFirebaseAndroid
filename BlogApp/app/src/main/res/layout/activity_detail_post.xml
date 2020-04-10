@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPost">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@drawable/profile_back"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ScreenDark"
+        android:layout_marginTop="250dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewİnt"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/black_gradient" />
+
+    <TextView
+        android:id="@+id/Headerİnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Header"
+        android:textAlignment="center"
+        android:textColor="@color/custom"
+        android:textSize="28dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@color/Green"
+        android:backgroundTint="@color/custom" />
+
+    <TextView
+        android:id="@+id/Datetimeİnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:textSize="9dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="375dp"
+        android:text="Datetime_Picker"
+        android:textColor="@color/Green" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileAutİmg"
+        android:layout_width="20dp"
+        android:scaleType="centerCrop"
+        android:layout_height="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/Descriptionİnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="20dp"
+        android:text="Loren ipsum dolor cerated with Bahadir NUral since 2020 with Lover."
+        android:textColor="@color/Gray"
+        android:textSize="12dp"
+        android:textStyle="normal" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileCommitİmg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="510dp" />
+
+    <EditText
+        android:id="@+id/Commitİnt"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:textAlignment="center"
+        android:layout_marginTop="510dp"
+        android:ems="8"
+        android:textSize="14dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/commit"
+        android:hint="Share Your Oppinion"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/Green" />
+
+    <Button
+        android:id="@+id/ShareCommitİnt"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/ScreenDark"
+        android:background="@color/cneonGreen"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="510dp"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/DescHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="375dp"
+        android:text="Description"
+        android:textColor="@color/Gray"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Share a Comment" />
+
+</RelativeLayout>

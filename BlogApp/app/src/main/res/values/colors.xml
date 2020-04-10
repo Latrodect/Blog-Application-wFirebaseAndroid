@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="custom">#313131</color>
+    <color name="Green">#999999</color>
+    <color name="Full">#00999999</color>
+    <color name="white">#D1D1D1</color>
+    <color name="TransWhite">#AADADADA</color>
+    <color name="TransWhiteB">#1A292929</color>
+    <color name="TransWhiteF">#14DADADA</color>
+    <color name="TransWhiteT">#CCFFFEFE</color>
+    <color name="Gray">#808080</color>
+    <color name="LightGreen">#97E096</color>
+    <color name="ScreenDark">#FFFFFF</color>
+    <color name="FirstDark">#000000</color>
+    <color name="FirstDarkc">#1A000000</color>
+    <color name="neonGreen">#97E096</color>
+    <color name="cneonGreen">#CC97E096</color>
+    <color name="Orange">#08131A</color>
+    <color name="LBlue">#3E464B</color>
+
+
+</resources>

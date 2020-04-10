@@ -1,0 +1,23 @@
+# Blog Application with Android Studio and Firebase RealTime Database 
+
+This program usage  is  a public Blog Application Demo. You can creat new Post and show them into your Profile. Also you can edit your profile and you can give a comment to an upload post. You can get this apk of demo in my website. Or  you can reach full version of this application when i upload in Google play store.
+
+
+## Description
+
+You can fallow me on my [LinkedIn](https://www.linkedin.com/in/hasan-bahad%C4%B1r-nural-062b221a2/) Account and my personal [Blog](http://www.bahadirnural.org/).
+
+## Program Work
+
+
+
+
+### Backend
+Demo includes two pages named Profile and Post. This pages includes databases with named Blog and Comment. Also this pages including a firebase storage named Blog İmages. 
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcblx0S1tBcHBsaWNhdGlvbl0gLS0-fEV4dGVuZHwgQVxuICBBW1Byb2ZpbGUgUGFnZV0gLS0-fEV4dGVuZHN8IEJbQWRhcHRlcnNdXG5cdEEgLS0-fEV4dGVuZHN8IENbQmxvZyBDbGFzc11cbiAgQSAtLT58RXh0ZW5kc3wgRFtVc2VyRGF0YSBDbGFzc11cbiAgQSAtLT58RXh0ZW5kc3wgR1tFZGl0IFByb2ZpbGUgUGFnZV1cbiAgRyAtLT58RXh0ZW5kc3wgTFtQcm9maWxlIFVkYXRlIFBhZ2VdXG4gIEIgLS0-fFJvdXRlfCBFW0RldGFpbFBvc3RdXG4gIEUgLS0-fEV4dGVuZHwgRltDb21tZW50Q2xhc3NdXG4gIEUgLS0-fEV4dGVuZHwgQ1xuICBLIC0tPnxFeHRlbmR8IElbUG9zdHMgUGFnZV1cbiAgSSAtLT58RXh0ZW5kfCBGXG4gIEkgLS0-fEV4dGVuZHwgQyIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcblx0S1tBcHBsaWNhdGlvbl0gLS0-fEV4dGVuZHwgQVxuICBBW1Byb2ZpbGUgUGFnZV0gLS0-fEV4dGVuZHN8IEJbQWRhcHRlcnNdXG5cdEEgLS0-fEV4dGVuZHN8IENbQmxvZyBDbGFzc11cbiAgQSAtLT58RXh0ZW5kc3wgRFtVc2VyRGF0YSBDbGFzc11cbiAgQSAtLT58RXh0ZW5kc3wgR1tFZGl0IFByb2ZpbGUgUGFnZV1cbiAgRyAtLT58RXh0ZW5kc3wgTFtQcm9maWxlIFVkYXRlIFBhZ2VdXG4gIEIgLS0-fFJvdXRlfCBFW0RldGFpbFBvc3RdXG4gIEUgLS0-fEV4dGVuZHwgRltDb21tZW50Q2xhc3NdXG4gIEUgLS0-fEV4dGVuZHwgQ1xuICBLIC0tPnxFeHRlbmR8IElbUG9zdHMgUGFnZV1cbiAgSSAtLT58RXh0ZW5kfCBGXG4gIEkgLS0-fEV4dGVuZHwgQyIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
+
+### Authentication
+[![](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtMb2dpbiBQYWdlXSAtLT58Q2hlY2t8IEJ7QXV0aCBpcyBudWxsID99XG5cdEIgLS0-fE5vfCBDW1JvdXRlIFByb2ZpbGVdXG4gIEIgLS0-fFllc3wgUltSb3V0ZSBSZWdpc3Rlcl1cbiAgQSAtLT58Q2hlY2sgTWFpbCBBbmQgUGFzc3wgWntDaGVjayBNYWlsICYgUGFzc31cblx0WiAtLT58Q29ycmVjdHwgQ1xuICBSIC0tPnxSZWdpc3RpcmF0aW9ufCBDXHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggVERcblx0QVtMb2dpbiBQYWdlXSAtLT58Q2hlY2t8IEJ7QXV0aCBpcyBudWxsID99XG5cdEIgLS0-fE5vfCBDW1JvdXRlIFByb2ZpbGVdXG4gIEIgLS0-fFllc3wgUltSb3V0ZSBSZWdpc3Rlcl1cbiAgQSAtLT58Q2hlY2sgTWFpbCBBbmQgUGFzc3wgWntDaGVjayBNYWlsICYgUGFzc31cblx0WiAtLT58Q29ycmVjdHwgQ1xuICBSIC0tPnxSZWdpc3RpcmF0aW9ufCBDXHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
+
+
+

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authentication">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/profile_back"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_height="500dp"
+        android:background="@color/ScreenDark"/>
+
+    <EditText
+        android:id="@+id/DisplayNameUpdate"
+        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/update_user"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Display Name"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/EmailUpdate"
+        android:layout_marginTop="240dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_mail_outline_black_24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Mail Adress"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/AboutUpdate"
+        android:hint="About You"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableRight="@drawable/aboutyou"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/Biographis"
+        android:hint="Biographi"
+        android:textSize="12dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:drawableRight="@drawable/biographi"
+        android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/phoneNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginRight="20dp"
+        android:drawableRight="@drawable/phonee"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        android:textSize="12dp" />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerHorizontal="true"
+        app:backgroundTint="@color/ScreenDark"
+        app:rippleColor="#E6D5D5"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/ic_check_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/UpdateProfileFab"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImageUpdate"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>

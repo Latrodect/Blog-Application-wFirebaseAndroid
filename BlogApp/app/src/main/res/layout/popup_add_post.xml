@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@color/ScreenDark">
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/profile_back" />
+
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="253dp"
+        android:background="@drawable/newpost_custom_color"/>
+    <TextView
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/newpost_custom_color"/>
+
+    <EditText
+        android:theme="@style/EditTextTheme"
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="248dp"
+        android:layout_marginRight="100dp"
+        android:textSize="14dp"
+        android:ems="7"
+        android:hint="Post Header"
+        android:inputType="textPersonName"
+        android:textColor="@color/FirstDark"
+        android:textColorHint="@color/TransWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/TransWhite"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Entry"
+        android:theme="@style/EditTextTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="14dp"
+        android:textAlignment="center"
+        android:layout_marginRight="100dp"
+        android:ems="7"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        android:textColor="@color/FirstDark"
+        android:textColorHint="@color/TransWhite"
+        android:backgroundTint="@color/TransWhite"
+        app:layout_constraintBottom_toTopOf="@+id/Share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Header"
+        app:layout_constraintVertical_bias="0.31" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerHorizontal="true"
+        app:backgroundTint="@color/ScreenDark"
+        app:rippleColor="#E6D5D5"
+        app:srcCompat="@drawable/send"
+        android:layout_marginTop="180dp"
+        android:id="@+id/Share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/AddImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/TransWhite"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:layout_marginRight="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:text="Your post show in realtime."
+        android:textColor="@color/ScreenDark"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <Button
+        android:id="@+id/help_button_one"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:background="@drawable/help_hover"
+        android:gravity="end"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="New Post"
+        android:textColor="@color/ScreenDark"
+        android:textSize="22dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:layout_centerHorizontal="true"
+        android:text="Click Here To Add Image"
+        android:textColor="@color/ScreenDark"
+        android:textSize="15dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="15dp"
+        android:scaleType="centerCrop" />
+
+
+</RelativeLayout>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Posts">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/profile_back"></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@color/ScreenDark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp">
+
+        <ImageButton
+            android:src="@drawable/gallery"
+            android:layout_width="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle_image_button"
+            android:layout_height="30dp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="centerCrop" />
+
+        <ImageButton
+            android:src="@drawable/settings"
+            android:layout_width="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle_image_button"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Green"
+        android:gravity="center|bottom"
+        android:layout_marginTop="475dp"
+        android:textSize="11dp"
+        android:text="Now you are see your latest fifty posts."/>
+
+    <TextView
+        android:id="@+id/LatestPostHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:gravity="center"
+        android:text="Latest Posts"
+        android:textColor="@color/ScreenDark"
+        android:textSize="17dp" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecylerView"
+        android:background="@color/TransWhiteB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="502dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:text="Bahadır NURAL, 26 years old, Married."
+        android:textColor="@color/Gray"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alegreya_sc"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/RecylerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/setUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp"
+        android:text="Berçin NURAL"
+        android:textColor="@color/custom"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="20dp"
+        android:text="Biography"
+        android:gravity="end"
+        android:textColor="@color/Gray"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/BiographiPost"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="20dp"
+        android:text="Surveillance is Ubiquitous, But is There a Just Way to Build a Surveillance State? Cybersecurity Expert David Lyon Discusses Digital Justice. Read the Full Analysis Here. Leading Research. Global Governance. Expert Analysis. Newsletters."
+        android:textColor="@color/Green"
+        android:textSize="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="402dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/ScreenDark"
+            android:text="801"/>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:background="@color/ScreenDark"
+            android:layout_height="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginRight="50dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/ScreenDark"
+            android:layout_height="wrap_content"
+            android:text="12"/>
+        <LinearLayout
+            android:layout_width="1dp"
+            android:background="@color/ScreenDark"
+            android:layout_height="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/ScreenDark"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content"
+            android:text="1231"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textSize="11dp"
+            android:textColor="@color/Green"
+            android:text="Post"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/Green"
+            android:layout_marginRight="80dp"
+            android:textSize="11dp"
+            android:layout_marginLeft="80dp"
+            android:layout_height="wrap_content"
+            android:text="Attachment"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="11dp"
+            android:textColor="@color/Green"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text="Locations"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/BottomMenu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/cneonGreen"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ProfileButt"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/profile_hover"
+            android:elevation="1580dp"
+            android:gravity="bottom"></Button>
+
+        <Button
+            android:id="@+id/FullPost"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bookmark_hover"
+            android:gravity="bottom"></Button>
+
+        <Button
+            android:id="@+id/HomeButt"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/home_hover"
+            android:gravity="bottom"></Button>
+
+        <Button
+            android:id="@+id/NewPostButt"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/new_post_hover"
+            android:gravity="bottom"></Button>
+
+        <Button
+            android:id="@+id/AttachmentButt"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/attach_hover"
+            android:gravity="bottom"></Button>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/EditText"
+        android:layout_width="120dp"
+        android:layout_height="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/ScreenDark"
+        android:layout_marginTop="330dp"
+        android:text="Edit Profile"
+        android:background="@drawable/custom_login_reg"/>
+
+    <TextView
+        android:id="@+id/setEmailAdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: Bahadirnural@gmail.com  "
+        android:layout_marginTop="202dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Gray"
+        android:textSize="9dp" />
+
+    <Button
+        android:id="@+id/help_button_Two"
+        android:layout_width="17dp"
+        android:layout_height="17dp"
+        android:background="@drawable/help_hover"
+        android:gravity="end"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"/>
+
+    <TextView
+        android:id="@+id/setPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="217dp"
+        android:text="Phone: 0531 465 30 44"
+        android:textColor="@color/Gray"
+        android:textSize="9dp" />
+
+</RelativeLayout>
